@@ -35,4 +35,5 @@ jobs:
         uses: actions/upload-artifact@v5
         with:
           name: RED-GROCERY-B2B-APK
-          path: android-project/app/build/outputs/apk/debug/app-debug.apk
+          path: android-project/app/build/outputs/apk/debug/app-debug.apk android.useAndroidX=true
+android.enableJetifier=trueandroid.useAndroidX=true
